@@ -8,7 +8,7 @@ export default function Header() {
           <div className="h-9 w-9 rounded-xl bg-gradient-to-tr from-pink-500 to-purple-500 grid place-items-center text-white shadow-lg">
             <Heart className="h-5 w-5" />
           </div>
-          <span className="font-semibold tracking-tight text-gray-900">Expecting Dad</span>
+          <span className="font-semibold tracking-tight text-gray-900">Expecting Dad · A Pregnant Man's Journey</span>
         </a>
         <nav className="hidden md:flex items-center gap-6 text-sm text-gray-700">
           <a href="#journey" className="hover:text-gray-900 transition-colors flex items-center gap-1">
@@ -22,7 +22,7 @@ export default function Header() {
           </a>
         </nav>
         <a href="#journey" className="inline-flex items-center gap-2 text-sm px-3 py-2 rounded-lg bg-gray-900 text-white hover:bg-gray-800 transition-colors">
-          Follow the Journey
+          Follow His Journey
         </a>
       </div>
     </header>
