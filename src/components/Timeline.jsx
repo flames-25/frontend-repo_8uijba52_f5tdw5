@@ -3,7 +3,7 @@ import { Baby, CalendarCheck2, Stethoscope, Sparkles } from 'lucide-react';
 const events = [
   {
     title: 'First Ultrasound',
-    description: 'Hearing the heartbeat for the first time — unforgettable.',
+    description: "Hearing his baby's heartbeat for the first time — unforgettable.",
     icon: Stethoscope,
     date: 'Week 8'
   },
@@ -30,8 +30,8 @@ const events = [
 export default function Timeline() {
   return (
     <section id="journey" className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
-      <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-gray-900">Journey Highlights</h2>
-      <p className="mt-2 text-gray-600">A few precious milestones from the road to parenthood.</p>
+      <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-gray-900">His Journey Highlights</h2>
+      <p className="mt-2 text-gray-600">A few precious milestones from this dad-to-be's road to parenthood.</p>
 
       <ol className="mt-10 relative border-s-2 border-dashed border-gray-200 pl-6 space-y-8">
         {events.map((e, i) => (

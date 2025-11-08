@@ -3,7 +3,7 @@ import { useState } from 'react';
 const photos = [
   {
     src: 'https://images.unsplash.com/photo-1555252333-9f8e92e65df9?q=80&w=1200&auto=format&fit=crop',
-    alt: 'Hands forming a heart over a belly'
+    alt: 'His hands forming a heart over his belly'
   },
   {
     src: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop',
@@ -27,7 +27,7 @@ export default function Gallery() {
       <div className="flex items-end justify-between">
         <div>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-gray-900">Little Moments</h2>
-          <p className="mt-2 text-gray-600">Snapshots that tell a story of anticipation and joy.</p>
+          <p className="mt-2 text-gray-600">Snapshots that tell his story of anticipation and joy.</p>
         </div>
         <div className="hidden sm:flex gap-2">
           {photos.map((_, i) => (
